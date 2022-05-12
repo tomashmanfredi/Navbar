@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&family=Poppins:ital,wght@1,200&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Lato', sans-serif;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: salmon;
+    height: 70px;
+}
+.logo{
+    height: 70px;
+    
+    
+}
+.container{
+    display: flex;
+    
+}
+nav{
+    display: flex;
+    align-items: center;
+    
+}
+.ul-list{
+    display: flex;
+    gap: 100px;
+    list-style: none;
+    padding: 100px;
+}
+
+a{
+    text-decoration: none;
+    color: white
+    
+}
+a:hover{
+    color: cornflowerblue;
+}
